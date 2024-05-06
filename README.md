@@ -11,6 +11,6 @@ Let's split long GPX route into 500-waypoint chunks. This is especially useful w
 ```
 go run main.go \
 ~/Downloads/SG200Miles2024.gpx \
-"SG200Miles2024" \
+"SG200" \
 ~/Downloads/SG200Miles2024 
 ```

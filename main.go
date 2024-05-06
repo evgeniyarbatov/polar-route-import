@@ -22,7 +22,7 @@ func main() {
 	for i, chunk := range chunks {
 		filename := fmt.Sprintf(
 			gpxOutputDir+"/"+"%d_"+gpxOutputFileName+".gpx",
-			i,
+			i+1,
 		)
 
 		CreateGPXFile(filename, chunk)
